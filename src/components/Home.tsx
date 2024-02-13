@@ -19,8 +19,9 @@ import Carousel from "./Carousel";
 
 const Home = () => {
     const[sections, setSections] = useState<ISections>();
+    const dbUrl = './personal-portofolio/data'
 
-    const {get, response, loading, error} = useFetch("./data")
+    const {get, response, loading, error} = useFetch(dbUrl)
 
     useEffect(() => {loadData()},[]);
     const loadData = async () => {
