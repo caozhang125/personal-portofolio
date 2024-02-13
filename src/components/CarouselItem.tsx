@@ -9,7 +9,8 @@ const CarouselItem = ({page}:Props) => {
     return (
         <SimpleGrid spacing={5} minChildWidth='250px'>
             <Box>
-                <Image src={page.img} alt={page.title} />
+                {/*<Image src={page.img} alt={page.title} />*/}
+                ![Home home]
             </Box>
             <Box>
                 <Heading> {page.title} </Heading>
