@@ -20,12 +20,13 @@ import Carousel from "./Carousel";
 const Home = () => {
     const[sections, setSections] = useState<ISections>();
 
-    const {get, response, loading, error} = useFetch("./data")
+    const {get, response, loading, error} = useFetch("./personal-portofolio/data")
 
     useEffect(() => {loadData()},[]);
     const loadData = async () => {
         const initialValue: ISections = await get('db.json');
         if (response.ok) {
+            console.log('db data:'+initialValue);
             setSections(initialValue);
         }
     }
