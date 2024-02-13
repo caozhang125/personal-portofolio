@@ -9,21 +9,21 @@
           "title": "Home",
           "description": "Self Infor here",
           "author": "Mario",
-          "img": "./personal-portofolio/images/landing.png"
+          "img": "./images/landing.png"
         },
         {
           "id": 2,
           "title": "Intro",
           "description": "Experiences",
           "author": "Yoshi",
-          "img": "./personal-portofolio/images/home.png"
+          "img": "./images/home.png"
         },
         {
           "id": 3,
           "title": "Brands",
           "description": "Brands worked here",
           "author": "Peach",
-          "img": "./personal-portofolio/images/brands.png"
+          "img": "./images/brands.png"
         }]
     },
     {
@@ -35,14 +35,14 @@
           "title": "Home",
           "description": "Self Intro here",
           "author": "Mario",
-          "img": "./personal-portofolio/images/landing.png"
+          "img": "./images/landing.png"
         },
         {
           "id": 2,
           "title": "Intro",
           "description": "Experiences",
           "author": "Yoshi",
-          "img": "./personal-portofolio/images/home.png"
+          "img": "./images/home.png"
         }
       ]
     }
