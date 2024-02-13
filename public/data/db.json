@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Home",
+       "pages": [
+         {
+          "id": 1,
+          "title": "Home",
+          "description": "Self Infor here",
+          "author": "Mario",
+          "img": "/images/landing.png"
+        },
+        {
+          "id": 2,
+          "title": "Intro",
+          "description": "Experiences",
+          "author": "Yoshi",
+          "img": "/images/home.png"
+        },
+        {
+          "id": 3,
+          "title": "Brands",
+          "description": "Brands worked here",
+          "author": "Peach",
+          "img": "/images/brands.png"
+        }]
+    },
+    {
+      "id": 2,
+      "title": "Intro",
+      "pages": [
+        {
+          "id": 1,
+          "title": "Home",
+          "description": "Self Infor here",
+          "author": "Mario",
+          "img": "/images/landing.png"
+        },
+        {
+          "id": 2,
+          "title": "Intro",
+          "description": "Experiences",
+          "author": "Yoshi",
+          "img": "/images/home.png"
+        }
+      ]
+    }
+  ]
+}
